@@ -11,3 +11,156 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text-orange{
+  color:yellow;
+}
+
+.card {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-logo img {
+  width: 150px;
+}
+
+.nav-link {
+  color: #333;
+  margin: 0 10px;
+}
+
+.divider {
+  color: #6c757d;
+}
+
+.appointment-btn {
+  background-color: #fd7e14;
+  color: white;
+}
+
+.background-img-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.background-img {
+  object-fit: cover;
+  z-index: -1;
+  width: 250%;
+  height: 110%;
+  top: 0;
+  left: 0;
+}
+
+.main-heading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.highlighted-heading {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fd7e14;
+}
+
+.left-side-content {
+  position: absolute;
+  z-index: 1;
+  margin-top: 50px;
+}
+
+.card-container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.rating-card {
+  width: 200px;
+  position: relative;
+  z-index: 2;
+}
+
+.review-link {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.right-side-content {
+  position: absolute;
+  margin-left: 900px;
+}
+
+.doctor-card {
+  width: 246px;
+  height: 214px;
+  background-color: rgba(21, 21, 21, 0);
+  border: 2px solid white;
+  color: #fd7e14;
+  text-align: center;
+  padding: 20px;
+  margin-top: 5%;
+}
+
+.doctor-images img {
+  width: 57px;
+  margin: 0 5px;
+}
+
+.doctor-description {
+  color: #fd7e14;
+}
+
+@media (max-width: 768px) {
+  .background-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .left-side-content,
+  .right-side-content {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .right-side-content {
+    margin-left: 0;
+  }
+
+  .doctor-card {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .doctor-images {
+    display: flex;
+    justify-content: center;
+  }
+
+  .doctor-images img {
+    margin: 0 10px;
+  }
+}

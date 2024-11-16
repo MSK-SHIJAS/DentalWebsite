@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.navbar .nav-link.text-orange{
+  color:#fd7e14;
+}
+.overlay-container {
+  position: absolute;
+  width: 75%;
+  height: 25%;
+  background-color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 80px;
+  z-index: 1;
+}
+.overlay-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 80%;
+  border: 1px solid orange;
 }
